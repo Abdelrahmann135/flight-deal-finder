@@ -18,8 +18,7 @@ class MangeData:
                     "iataCode": "test"
                 }
             }
-            put_response = requests.put(
+            requests.put(
                 f"{END_POINT}/{city["id"]}",
                 json=new_data
             )
-

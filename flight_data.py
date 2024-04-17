@@ -1,7 +1,7 @@
 import requests
 from mange_data import MangeData
 from _datetime import datetime, timedelta
-END_POINT ="https://api.tequila.kiwi.com/v2/search"
+END_POINT = "https://api.tequila.kiwi.com/v2/search"
 KEY = "xxxxxxxxxxxxxxxxxxxxxxY3fjG09"
 
 
